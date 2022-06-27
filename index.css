@@ -88,14 +88,14 @@
 /*HOME SECTION*/
 
 #home {
-    height: 650px;
+    height: 90vh;
     width: 100%;
     display: flex;
     background-color: #EEEEEE;
 }
 .home-center-box{
     width: 60%;
-    height: 500px;
+    height: 60vh;
     margin: auto;
     display: flex;
     align-items: center;
