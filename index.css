@@ -178,7 +178,7 @@
     font-size: 2.2rem;
 }
 .about-content p{
-    text-align: justify;
+    /* text-align: justify; */
     padding: 10px;
 }
 .about-content ul{
@@ -272,6 +272,11 @@
     }
     .home-buttons a button{
         font-size: 1rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .about-img{
+        display: none;
     }
 }
 
@@ -375,9 +380,10 @@
     }
 
     /*ABOUT SECTION*/
-    .about-img{
-        display: none;
-    }
+    /* .about-content{
+        width: 100%;
+    } */
+    
 
     
 }  

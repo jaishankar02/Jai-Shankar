@@ -17,3 +17,11 @@ toggleButton.onclick = function () {
     }
 
 }
+
+function hidenav(){
+    if(window.innerWidth <= 768){
+        navbarOption.style.display = "";
+        toggleIcon1.style.display = "none";
+        toggleIcon2.style.display = "block";
+    }
+}
