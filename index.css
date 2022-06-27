@@ -1,0 +1,401 @@
+/*ANIMATION DECLARATION*/
+@keyframes firstPage_developer{
+    0%{content: "D|";}
+    5%{content: "De|";}
+    10%{content: "Dev|";}
+    15%{content: "Deve|";}
+    20%{content: "Devel|";}
+    25%{content: "Develo|";}
+    30%{content: "Develop|";}
+    35%{content: "Develope|";}
+    45%{content: "Developer|";}
+    55%{content: "";}
+    60%{content: "D|";}
+    65%{content: "De|";}
+    70%{content: "Des|";}
+    75%{content: "Desi|";}
+    80%{content: "Desig|";}
+    85%{content: "Design|";}
+    90%{content: "Designe|";}
+    95%{content: "Designer|";}
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*NAVBAR SECTION*/
+
+.navbar-container {
+    align-items: center;
+    background-color: #222831;
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-container a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.brand-name-container {
+    text-align: center;
+    width: 30%;
+}
+
+.brand-name-container a {
+    font-size: 2.5rem;
+}
+
+.nav-option-container {
+    width: 45%;
+}
+
+.nav-option-container ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-option-container a:hover {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #00ADB5;
+    padding: 0 10px 5px;
+}
+
+.burger-lines {
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: 7%;
+    top: 25%;
+}
+
+.burger-lines:hover {
+    border: 2px solid #fff;
+}
+
+
+/*HOME SECTION*/
+
+#home {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    background-color: #EEEEEE;
+}
+.home-center-box{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.my-home-pic{
+    width: 40%;
+    height: 70%;
+}
+.home-text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-text h6{
+    font-size: 2rem;
+}
+.home-text h1{
+    font-size: 4.5rem;
+}
+.home-text h5{
+    font-size: 3rem;
+}
+.home-text h5 span::after{
+    content:"";
+    color:red;
+    animation:firstPage_developer infinite 5s;
+}
+.home-buttons{
+    width: 90%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+.home-buttons a{
+    display: block;
+    height: 50%;
+    width: 40%;
+    margin-right: 20px;
+}
+.home-buttons a button{
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border-radius:10px ;
+}
+
+.home-buttons a button:hover{
+    background-color: red;
+    color: #fff;
+}
+/*ABOUT SECTION*/
+#about{
+    border: 1px solid red;
+    width: 100%;
+    height: 60vh;
+    background-color: #00ADB5;
+}
+.about-word{
+    text-align:center;
+    color: #EEEEEE;
+}
+.about-word h3{
+    font-size: 3.5rem;
+}
+.about-heading{
+    text-align: center;
+    color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:1431px) and (min-width:1129px) {
+    /*HOME SECTION*/
+    .home-center-box{
+        width: 70%;
+    }
+    .my-home-pic{
+        width: 35%;
+    }
+    .home-text{
+        width: 65%;
+    }
+    .home-text h6{
+        font-size: 1.7rem;
+    }
+    .home-text h1{
+        font-size: 4rem;
+    }
+    .home-text h5{
+        font-size: 2.5rem;
+    }
+    .home-buttons a button{
+        font-size: 1.1rem;
+    }
+    .home-buttons a{
+        width: 35%;
+        height: 45%;
+    }
+
+}
+@media screen and (max-width:1129px) and (min-width:881px) {
+    /*HOME SECTION*/
+    .home-center-box{
+        width: 80%;
+    }
+    .home-text h6{
+        font-size: 1.5rem;
+    }
+    .home-text h1{
+        font-size: 3.7rem;
+    }
+    .home-text h5{
+        font-size: 2rem;
+    }
+    .home-buttons a{
+        width: 40%;
+        height: 45%;
+    }
+    .home-buttons a button{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:768px) {
+
+    /*NAVBAR SECTION*/
+    .nav-option-container {
+        width: 60%;
+    }
+}
+@media screen and (max-width:881px) and (min-width:768px) {
+    /*HOME SECTION*/
+    .home-center-box{
+        width: 95%;
+    }
+    .home-text h6{
+        font-size: 1.5rem;
+    }
+    .home-text h1{
+        font-size: 3.7rem;
+    }
+    .home-text h5{
+        font-size: 2rem;
+    }
+    .home-buttons a{
+        width: 35%;
+        height: 45%;
+    }
+    .home-buttons a button{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /*NAVBAR SECTION*/
+    .navbar-container {
+        display: block;
+    }
+
+    .navbar-container a {
+        font-size: 1.5rem;
+    }
+
+    .brand-name-container {
+        height: 15vh;
+        width: 60%;
+
+
+    }
+
+    .brand-name-container p {
+        align-items: center;
+        display: flex;
+        height: 15vh;
+        justify-content: start;
+        margin-left: 10%;
+    }
+
+    .brand-name-container a {
+        font-size: 2rem;
+    }
+
+    .nav-option-container {
+        background-color: #393E46;
+        display: none;
+        width: 100%;
+    }
+
+    .nav-option-container ul {
+        flex-direction: column;
+        justify-content: left;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .nav-option-container ul li {
+        border-bottom: 1px solid #EEEEEE;
+    }
+
+    .nav-option-container a {
+        margin: 6% 0 6% 6%;
+    }
+
+    .nav-option-container a:hover {
+        border: none;
+        border-radius: 0;
+        color: #00ADB5;
+        padding: 0 10px 5px;
+    }
+
+    .burger-lines {
+        display: block;
+    }
+    .burger-lines .fa-xmark{
+        display: none;
+    }
+    
+    /*home page*/
+    .home-center-box{
+        justify-content: center;
+        width: 95%;
+    }
+    .my-home-pic{
+        display: none;
+    }
+    .home-text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text h6{
+        font-size: 1.5rem;
+    }
+    .home-text h1{
+        font-size: 3.7rem;
+    }
+    .home-text h5{
+        font-size: 2rem;
+    }
+    .home-buttons{
+        width: 423px;
+        justify-content: center;
+    }
+    .home-buttons a{
+        width: 40%;
+        height: 45%;
+    }
+    .home-buttons a button{
+        font-size: 1rem;
+    }
+
+    
+}  
+@media screen and (max-width:446px) {
+    /*home page*/
+    .home-center-box{
+        justify-content: center;
+        width: 95%;
+    }
+    .my-home-pic{
+        display: none;
+    }
+    .home-text{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text h6{
+        font-size: 1rem;
+    }
+    .home-text h1{
+        font-size: 2.5rem;
+    }
+    .home-text h5{
+        font-size: 1.5rem;
+    }
+    .home-buttons{
+        width: 285px;
+        justify-content: center;
+    }
+    .home-buttons a{
+        width: 50%;
+        height: 45%;
+    }
+    .home-buttons a button{
+        font-size: 0.8rem;
+    }
+
+} 
+ 
+
