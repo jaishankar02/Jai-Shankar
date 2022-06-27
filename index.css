@@ -370,6 +370,11 @@
         font-size: 1rem;
     }
 
+    /*ABOUT SECTION*/
+    .about-img{
+        display: none;
+    }
+
     
 }  
 @media screen and (max-width:446px) {
