@@ -222,6 +222,7 @@
 }
 
 .about-word {
+    padding-top: 50px;
     text-align: center;
     color: #393E46;
 }
@@ -500,6 +501,10 @@
     }
 
     /*ABOUT SECTION*/
+/* 
+    .about-word{
+        margin-top: px;
+    } */
     .about-content {
         font-size: 1.1rem;
     }
