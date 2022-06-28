@@ -443,7 +443,14 @@
     }
 
     /*home page*/
+    #home {
+        height: 90%;
+        width: 100%;
+        display: flex;
+        background-color: #EEEEEE;
+    }
     .home-center-box {
+        padding-top: 15vh;
         justify-content: center;
         width: 95%;
     }
