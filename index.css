@@ -286,8 +286,82 @@
     font-size: 1.5rem;
 }
 
+/*CONTACT ME*/
+#contact{
+    background-color: #00ADB5;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+.contact-word h3{
+    font-size: 3rem;
+    color: #393E46;
+    text-align: center;
+}
+.phone-box{
+    display: flex;
+    margin: 30px 0 0 40%;
 
+}
+.phone-box span i,.email-box span i{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #EEEEEE;
+    margin-right: 20px;
+    color: #EEEEEE;
+}
+.phone-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.phone-text span{
+    color: #EEEEEE;
+    font-size: 1.6rem;
+}
+.phone-box span a,.email-box span a{
+    display: block;
+    color: #393E46;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.email-box{
 
+    display: flex;
+    margin: 20px 0 0 40%;
+}
+.social-media{
+    margin: 70px 0 0 40%;
+}
+.social-media a{
+    margin:0 20px 0 0;
+    color: #EEEEEE;
+}
+.form{
+    text-align: center;
+}
+.form input{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top:30px ;
+    border: 2px solid #6c757d;
+    padding-left: 10px;
+}
+.form textarea{
+    border-radius: 20px;
+    margin-top:20px ;
+    padding: 10px 0 0 10px;
+    width: 50%;
+}
+.submit-button:hover{
+    background-color: red;
+    color:#EEEEEE;
+}
+/*FOOTER SECTION*/
+footer{
+    height: 5vh;
+    text-align: center;
+}
 
 
 
@@ -358,6 +432,23 @@
     .home-buttons a button {
         font-size: 1rem;
     }
+
+    /*CONTACT SECTION*/
+    .phone-box{
+        margin-left: 10%;
+    }
+    .email-box{
+        margin-left: 10%;
+    }
+    .form input{
+        width: 80%;
+    }
+    .form textarea{
+        width: 80%;
+    }
+    .social-media{
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width:1000px) and (min-width:768px) {
@@ -394,6 +485,22 @@
 
     .home-buttons a button {
         font-size: 1rem;
+    }
+    /*CONTACT SECTION*/
+    .phone-box{
+        margin-left: 10%;
+    }
+    .email-box{
+        margin-left: 10%;
+    }
+    .form input{
+        width: 80%;
+    }
+    .form textarea{
+        width: 80%;
+    }
+    .social-media{
+        margin-left: 10%;
     }
 }
 
@@ -534,6 +641,34 @@
     .about-word h3{
         font-size: 3rem;
     }
+
+    /*CONTACT SETION*/
+    
+    .phone-box{
+        margin-left: 15%;
+    }
+    .email-box{
+        margin-left: 15%;
+    }
+    /* .phone-text span{
+        font-size: 1.rem;
+    }
+    .phone-box span a,.email-box span a{
+        font-size: 1rem;
+    } */
+    .social-media{
+        margin-left: 20% ;
+    }
+    .form-box{
+        margin-top: 70px;
+    }
+    .form input{
+        width: 80%;
+    }
+    .form textarea{
+        width: 80%;
+    }
+    
 }
 
 @media screen and (max-width:446px) {
@@ -577,6 +712,22 @@
     }
     .home-buttons a button {
         font-size: 0.8rem;
+    }
+    /*CONTACT SECTION*/
+    .phone-box{
+        margin-left: 0;
+    }
+    .email-box{
+        margin-left: 0;
+    }
+    .phone-text span{
+        font-size: 1.3rem;
+    }
+    .phone-box span a,.email-box span a{
+        font-size: 1rem;
+    }
+    .social-media{
+        margin-left: 20% ;
     }
 
 }
