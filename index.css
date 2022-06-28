@@ -220,10 +220,11 @@
     width: 100%;
     height: 45%;
     background-color: #00ADB5;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
 }
 
 .about-word {
-    padding-top: 50px;
     text-align: center;
     color: #393E46;
 }
@@ -263,9 +264,8 @@
 /*WORK SECTION*/
 #work{
     background-color: #EEEEEE;
-}
-.work-word{
-    padding-top: 50px;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
 }
 .work-word h3{
     font-size: 3rem;
