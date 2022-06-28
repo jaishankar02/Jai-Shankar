@@ -258,6 +258,12 @@
     column-count: 2;
 }
 
+/*WORK SECTION*/
+
+.work-cards-box{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
@@ -444,7 +450,7 @@
 
     /*home page*/
     #home {
-        height: 90%;
+        height: 70%;
         width: 100%;
         display: flex;
         background-color: #EEEEEE;
