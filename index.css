@@ -259,8 +259,8 @@
 }
 
 /*WORK SECTION*/
-.work-word {
-    font-size: 2.2rem;
+.work-word ul{
+    font-size: 3rem;
 }
 .work-cards-box{
     display: flex;
@@ -458,7 +458,7 @@
         background-color: #EEEEEE;
     }
     .home-center-box {
-        padding-top: 20vh;
+        margin-top: 25vh;
         justify-content: center;
         width: 95%;
     }
