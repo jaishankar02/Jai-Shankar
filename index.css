@@ -450,13 +450,13 @@
 
     /*home page*/
     #home {
-        height: 70%;
+        height: 80%;
         width: 100%;
         display: flex;
         background-color: #EEEEEE;
     }
     .home-center-box {
-        padding-top: 15vh;
+        padding-top: 20vh;
         justify-content: center;
         width: 95%;
     }
