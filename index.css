@@ -264,6 +264,9 @@
 #work{
     background-color: #EEEEEE;
 }
+.work-word{
+    padding-top: 50px;
+}
 .work-word h3{
     font-size: 3rem;
     color: #393E46;
@@ -274,9 +277,13 @@
     justify-content: space-evenly;
 }
 .work-card{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 
