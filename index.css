@@ -88,6 +88,7 @@
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .navbar-container a {
@@ -260,12 +261,22 @@
 }
 
 /*WORK SECTION*/
-.work-word ul{
+#work{
+    background-color: #EEEEEE;
+}
+.work-word h3{
     font-size: 3rem;
+    color: #393E46;
+    text-align: center;
 }
 .work-cards-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+.work-card{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
