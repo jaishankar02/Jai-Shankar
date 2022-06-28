@@ -259,7 +259,9 @@
 }
 
 /*WORK SECTION*/
-
+.work-word {
+    font-size: 2.2rem;
+}
 .work-cards-box{
     display: flex;
     justify-content: space-around;
@@ -450,7 +452,7 @@
 
     /*home page*/
     #home {
-        height: 80%;
+        height: 90%;
         width: 100%;
         display: flex;
         background-color: #EEEEEE;
@@ -550,7 +552,6 @@
         width: 50%;
         height: 45%;
     }
-
     .home-buttons a button {
         font-size: 0.8rem;
     }
