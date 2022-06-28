@@ -353,9 +353,14 @@
     padding: 10px 0 0 10px;
     width: 50%;
 }
+.submit-button{
+    background-color: #222831;
+    color:#EEEEEE;
+    font-size: 1.2rem;
+}
 .submit-button:hover{
     background-color: red;
-    color:#EEEEEE;
+
 }
 /*FOOTER SECTION*/
 footer{
