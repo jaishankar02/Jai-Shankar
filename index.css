@@ -1,24 +1,77 @@
 /*ANIMATION DECLARATION*/
-@keyframes firstPage_developer{
-    0%{content: "D|";}
-    5%{content: "De|";}
-    10%{content: "Dev|";}
-    15%{content: "Deve|";}
-    20%{content: "Devel|";}
-    25%{content: "Develo|";}
-    30%{content: "Develop|";}
-    35%{content: "Develope|";}
-    45%{content: "Developer|";}
-    55%{content: "";}
-    60%{content: "D|";}
-    65%{content: "De|";}
-    70%{content: "Des|";}
-    75%{content: "Desi|";}
-    80%{content: "Desig|";}
-    85%{content: "Design|";}
-    90%{content: "Designe|";}
-    95%{content: "Designer|";}
+@keyframes firstPage_developer {
+    0% {
+        content: "D|";
     }
+
+    5% {
+        content: "De|";
+    }
+
+    10% {
+        content: "Dev|";
+    }
+
+    15% {
+        content: "Deve|";
+    }
+
+    20% {
+        content: "Devel|";
+    }
+
+    25% {
+        content: "Develo|";
+    }
+
+    30% {
+        content: "Develop|";
+    }
+
+    35% {
+        content: "Develope|";
+    }
+
+    45% {
+        content: "Developer|";
+    }
+
+    55% {
+        content: "";
+    }
+
+    60% {
+        content: "D|";
+    }
+
+    65% {
+        content: "De|";
+    }
+
+    70% {
+        content: "Des|";
+    }
+
+    75% {
+        content: "Desi|";
+    }
+
+    80% {
+        content: "Desig|";
+    }
+
+    85% {
+        content: "Design|";
+    }
+
+    90% {
+        content: "Designe|";
+    }
+
+    95% {
+        content: "Designer|";
+    }
+}
 
 * {
     margin: 0;
@@ -93,95 +146,115 @@
     display: flex;
     background-color: #EEEEEE;
 }
-.home-center-box{
+
+.home-center-box {
     width: 60%;
     height: 60vh;
     margin: auto;
     display: flex;
     align-items: center;
 }
-.my-home-pic{
+
+.my-home-pic {
     width: 40%;
     height: 70%;
 }
-.home-text{
+
+.home-text {
     width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.home-text h6{
+
+.home-text h6 {
     font-size: 2rem;
 }
-.home-text h1{
+
+.home-text h1 {
     font-size: 4.5rem;
 }
-.home-text h5{
+
+.home-text h5 {
     font-size: 3rem;
 }
-.home-text h5 span::after{
-    content:"";
-    color:red;
-    animation:firstPage_developer infinite 5s;
+
+.home-text h5 span::after {
+    content: "";
+    color: red;
+    animation: firstPage_developer infinite 5s;
 }
-.home-buttons{
+
+.home-buttons {
     width: 90%;
     height: 100px;
     display: flex;
     align-items: center;
 }
-.home-buttons a{
+
+.home-buttons a {
     display: block;
     height: 50%;
     width: 40%;
     margin-right: 20px;
 }
-.home-buttons a button{
+
+.home-buttons a button {
     height: 100%;
     width: 100%;
     font-size: 1.2rem;
     background-color: transparent;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 
-.home-buttons a button:hover{
+.home-buttons a button:hover {
     background-color: red;
     color: #fff;
 }
+
 /*ABOUT SECTION*/
-#about{
+#about {
     /* border: 1px solid red; */
     width: 100%;
     height: 45%;
     background-color: #00ADB5;
 }
-.about-word{
-    text-align:center;
+
+.about-word {
+    text-align: center;
     color: #393E46;
 }
-.about-word h3{
+
+.about-word h3 {
     font-size: 4rem;
 }
-.row{
+
+.row {
     margin: 0;
 }
-.about-box{
+
+.about-box {
     margin-top: 50px;
 }
-.about-content{
+
+.about-content {
     color: #EEEEEE;
     font-size: 1.5rem;
 }
-.about-content h3, .about-heading h3{
+
+.about-content h3,
+.about-heading h3 {
     color: #393E46;
     font-size: 2.2rem;
 }
-.about-content p{
+
+.about-content p {
     text-align: justify;
     padding: 10px;
 }
-.about-content ul{
+
+.about-content ul {
     column-count: 2;
 }
 
@@ -194,53 +267,68 @@
 /*MEDIA QUERY*/
 
 @media screen and (max-width:1431px) and (min-width:1129px) {
+
     /*HOME SECTION*/
-    .home-center-box{
+    .home-center-box {
         width: 70%;
     }
-    .my-home-pic{
+
+    .my-home-pic {
         width: 35%;
     }
-    .home-text{
+
+    .home-text {
         width: 65%;
     }
-    .home-text h6{
+
+    .home-text h6 {
         font-size: 1.7rem;
     }
-    .home-text h1{
+
+    .home-text h1 {
         font-size: 4rem;
     }
-    .home-text h5{
+
+    .home-text h5 {
         font-size: 2.5rem;
     }
-    .home-buttons a button{
+
+    .home-buttons a button {
         font-size: 1.1rem;
     }
-    .home-buttons a{
+
+    .home-buttons a {
         width: 35%;
         height: 45%;
     }
 
 }
+
 @media screen and (max-width:1129px) and (min-width:881px) {
+
     /*HOME SECTION*/
-    .home-center-box{
+    .home-center-box {
         width: 80%;
     }
-    .home-text h6{
+
+    .home-text h6 {
         font-size: 1.5rem;
     }
-    .home-text h1{
+
+    .home-text h1 {
         font-size: 3.7rem;
     }
-    .home-text h5{
+
+    .home-text h5 {
         font-size: 2rem;
     }
-    .home-buttons a{
+
+    .home-buttons a {
         width: 40%;
         height: 45%;
     }
-    .home-buttons a button{
+
+    .home-buttons a button {
         font-size: 1rem;
     }
 }
@@ -252,30 +340,38 @@
         width: 60%;
     }
 }
+
 @media screen and (max-width:881px) and (min-width:768px) {
+
     /*HOME SECTION*/
-    .home-center-box{
+    .home-center-box {
         width: 95%;
     }
-    .home-text h6{
+
+    .home-text h6 {
         font-size: 1.5rem;
     }
-    .home-text h1{
+
+    .home-text h1 {
         font-size: 3.7rem;
     }
-    .home-text h5{
+
+    .home-text h5 {
         font-size: 2rem;
     }
-    .home-buttons a{
+
+    .home-buttons a {
         width: 35%;
         height: 45%;
     }
-    .home-buttons a button{
+
+    .home-buttons a button {
         font-size: 1rem;
     }
 }
+
 @media screen and (max-width:767px) {
-    .about-img{
+    .about-img {
         display: none;
     }
 }
@@ -341,84 +437,109 @@
     .burger-lines {
         display: block;
     }
-    .burger-lines .fa-xmark{
+
+    .burger-lines .fa-xmark {
         display: none;
     }
-    
+
     /*home page*/
-    .home-center-box{
+    .home-center-box {
         justify-content: center;
         width: 95%;
     }
-    .my-home-pic{
+
+    .my-home-pic {
         display: none;
     }
-    .home-text{
+
+    .home-text {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .home-text h6{
+
+    .home-text h6 {
         font-size: 1.5rem;
     }
-    .home-text h1{
+
+    .home-text h1 {
         font-size: 3.7rem;
     }
-    .home-text h5{
+
+    .home-text h5 {
         font-size: 2rem;
     }
-    .home-buttons{
+
+    .home-buttons {
         width: 423px;
         justify-content: center;
     }
-    .home-buttons a{
+
+    .home-buttons a {
         width: 40%;
         height: 45%;
     }
-    .home-buttons a button{
+
+    .home-buttons a button {
         font-size: 1rem;
     }
 
     /*ABOUT SECTION*/
-    
+    .about-content {
+        font-size: 1.1rem;
+    }
 
-    
-}  
+    .about-content h3,
+    .about-heading h3 {
+        font-size: 1.8rem;
+    }
+    .about-word h3{
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width:446px) {
+
     /*home page*/
-    .home-center-box{
+    .home-center-box {
         justify-content: center;
         width: 95%;
     }
-    .my-home-pic{
+
+    .my-home-pic {
         display: none;
     }
-    .home-text{
+
+    .home-text {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .home-text h6{
+
+    .home-text h6 {
         font-size: 1rem;
     }
-    .home-text h1{
+
+    .home-text h1 {
         font-size: 2.5rem;
     }
-    .home-text h5{
+
+    .home-text h5 {
         font-size: 1.5rem;
     }
-    .home-buttons{
+
+    .home-buttons {
         width: 285px;
         justify-content: center;
     }
-    .home-buttons a{
+
+    .home-buttons a {
         width: 50%;
         height: 45%;
     }
-    .home-buttons a button{
+
+    .home-buttons a button {
         font-size: 0.8rem;
     }
 
-} 
- 
-
+}
