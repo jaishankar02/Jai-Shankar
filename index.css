@@ -289,7 +289,7 @@
 /*CONTACT ME*/
 #contact{
     background-color: #00ADB5;
-    padding-top: 15vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
 }
 .contact-word h3{
@@ -365,7 +365,9 @@
 /*FOOTER SECTION*/
 footer{
     height: 5vh;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
