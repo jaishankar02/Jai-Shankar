@@ -25,3 +25,8 @@ function hidenav() {
         toggleIcon2.style.display = "block";
     }
 }
+ function message(){
+    var userName = document.querySelector('.user-name');
+    var inputMessage= document.querySelector('.input-message');
+    inputMessage.value="Hii "+userName.value + " I am Jai Shankar. I will get back to you" 
+ }
