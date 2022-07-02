@@ -422,6 +422,9 @@ footer{
     .home-center-box {
         width: 80%;
     }
+    .homepic{
+        width: 90%;
+    }
 
     .home-text h6 {
         font-size: 1.5rem;
@@ -475,6 +478,9 @@ footer{
     /*HOME SECTION*/
     .home-center-box {
         width: 95%;
+    }
+    .homepic{
+        width: 90%;
     }
 
     .home-text h6 {
