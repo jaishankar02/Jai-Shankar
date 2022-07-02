@@ -158,7 +158,7 @@
 
 .my-home-pic {
     width: 40%;
-    height: 70%;
+    height: 100%;
 }
 .homepic{
     height: 65vh;
@@ -243,6 +243,10 @@
 
 .about-box {
     margin-top: 50px;
+}
+.secondpic{
+    width: 100%;
+    border-radius: 50%;
 }
 
 .about-content {
